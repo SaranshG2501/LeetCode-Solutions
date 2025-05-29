@@ -39,7 +39,7 @@ class Solution(object):
         return [first_position, last_position]
 
 # Example usage:
-# solution = Solution()
-# print(solution.searchRange([5,7,7,8,8,10], 8))  # Output: [3, 4]
-# print(solution.searchRange([5,7,7,8,8,10], 6))  # Output: [-1, -1]
-# print(solution.searchRange([], 0))               # Output: [-1, -1]
+solution = Solution()
+print(solution.searchRange([5, 7, 7, 8, 8, 10], 8))  # Output: [3, 4]
+print(solution.searchRange([5, 7, 7, 8, 8, 10], 6))  # Output: [-1, -1]
+print(solution.searchRange([], 0))                    # Output: [-1, -1]
