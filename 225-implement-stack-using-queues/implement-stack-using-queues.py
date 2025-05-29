@@ -38,9 +38,10 @@ class MyStack(object):
         """
         return not self.queue1  # Check if queue1 is empty
 
-# Your MyStack object will be instantiated and called as such:
+# Example usage:
 # obj = MyStack()
-# obj.push(x)
-# param_2 = obj.pop()
-# param_3 = obj.top()
-# param_4 = obj.empty()
+# obj.push(1)
+# obj.push(2)
+# print(obj.top())   # Returns 2
+# print(obj.pop())   # Returns 2
+# print(obj.empty()) # Returns False
